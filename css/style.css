@@ -1,0 +1,66 @@
+/* common css start */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 55px;
+    line-height: 60px;
+}
+p{
+    font-size: 16px;
+}
+.half_width{
+    width: 50%;
+    
+}
+.red_button{
+    text-decoration: none; 
+    background: #DD0000;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #fff;
+}
+/* common css end */
+/* banner section start */
+
+header{
+    display: flex;
+    justify-content: center;
+}
+#banner{
+    width: 1100px;
+}
+.banner_items{
+    display: flex;
+    justify-content: space-evenly;
+    
+    background:  #161616;
+    border-radius: 20px;
+    
+}
+.banner_info{
+    color: #fff;
+    height: 500px;
+    border-radius: 30px;
+    padding-left: 5%;
+}
+.banner_info .banner_paragraph{
+    text-align: left;
+}
+.banner_button { 
+    padding-top: 20px;   
+}
+.banner_button i{ 
+    padding-left: 5px; 
+}
+.banner_image{
+    padding-left: 40px;
+}
+.banner_image img{
+    width: 80%;
+    height: calc(100% - 20px);
+    margin-top: 20px;
+    
+}
+
+/* banner section end */
