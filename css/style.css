@@ -314,14 +314,14 @@ nav .social i{
 @media screen and (min-width:413px) and (max-width:576px) {
       
     #banner{
-        width: 100%;
+        width: 100vw;
     }
     .banner_items{
         display: block;
     }
     .banner_info{
-        
-        margin: 0 auto;
+        margin-left: 2%;
+        margin-right: 0;
     }
     h1{
         padding-top: 60px;
@@ -330,6 +330,7 @@ nav .social i{
     }
     .banner_image{ 
         margin: 0 auto;
+        padding-left: 0px;
     }
     .banner_image  img{
         margin-top: 10px;
@@ -343,21 +344,21 @@ nav .social i{
         display: block;
     }
     .left_content{
-        width: 50%;
+        width: 100vw;
     }
     .right_content{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
        
     }
-    .left_button_items ul {
-        margin-left: 25%;
+    .left_button_items>ul {
+        margin-left: 5%;
      }
     .blogs{
-        width: 60%;
+        width: 100vw;
     }
     .blog_image img{
-        width: 100%;
+        width: 100vw;
     }
     .right_content .blog_info h4{
         font-size: 14px;
@@ -374,7 +375,7 @@ nav .social i{
     }
     /* responsive footer */
     footer{
-        
+        width: 100vw;
         height: auto;
     }
     .menu ul {
@@ -388,9 +389,9 @@ nav .social i{
 }
 /* ---------tablet device--------------- */
 @media screen and (min-width:577px) and (max-width:992px) {
-    body{
+    /* body{
         overflow-x: hidden;
-    }
+    } */
     #banner{
         width: 100vw;
         
