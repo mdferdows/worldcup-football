@@ -1,6 +1,12 @@
 /* common css start */
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
 body{
     font-family: 'Poppins', sans-serif;
+    margin-top: 50px;
 }
 h1{
     font-size: 55px;
@@ -19,6 +25,14 @@ p{
     border-radius: 5px;
     padding: 10px 20px;
     color: #fff;
+}
+/* transition used */
+.red_button:hover{
+    
+    background: #07800d;
+    color: #fff;
+    transition:   2s;
+    
 }
 /* common css end */
 /* banner section start */
@@ -64,3 +78,124 @@ header{
 }
 
 /* banner section end */
+/* main section start */
+#main{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.main_content{
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+}
+.left_content{
+    width: 25%;
+}
+.left_button_items{
+    background:#161616;
+    border-radius: 6px;
+    height: 300px;
+}
+.left_button_items ul {
+   padding: 30px;
+   /* margin-top: 20px; */
+}
+.left_button_items ul li{
+    list-style: none;
+    width: 220px;
+    height: 40px;
+    margin-bottom: 30px;
+    background: #fff;
+    text-align: center;
+    border-radius: 8px;
+    padding-top: 10px;
+    
+}
+.left_button_items ul .red_blog{
+    background: #DD0000;
+    color: #fff;
+}
+.left_button_items ul .red_blog a{
+    
+    color: #fff;
+}
+.left_button_items a{
+    
+    text-decoration: none;
+    color: #161616;
+}
+/* right content 75% */
+.right_content{
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+}
+.blogs{
+    margin-left: 20px;
+    box-shadow: 0px 1px 4px 1px #757c7562 ;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    margin-top: 5%;
+}
+.blog_image img{
+    width: 100%;
+}
+.right_content .blog_info {
+    width: 100%;
+    padding: 6px;
+    
+}
+.right_content .blog_info h4{
+    font-size: 15px;
+}
+.right_content .blog_info .icon{
+    display: flex;
+    align-items: center;
+    
+}
+.right_content .blog_info .icon img,
+.right_content .blog_info .icon span{
+    padding-right: 4px;
+
+}
+
+.right_content .blog_info .icon  .time{
+    padding-right: 40px;
+
+}
+/* main section end */
+footer{
+    background: #161616;
+    height: 250px;
+}
+.footer_items{
+   padding-top: 25px;
+   
+    color: #fff;
+}
+.footer_items h3{
+    font-size: 35px;
+    text-align: center;
+}
+.footer_items hr{
+    width: 86%;
+    background: #ffffff11;
+    /* height: 4px; */
+    padding: 0;
+}
+.menu ul {
+    display: flex;
+    justify-content: center;
+    
+}
+.menu ul li{
+    list-style: none;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 25px;
+}
