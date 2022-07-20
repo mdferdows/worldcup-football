@@ -167,6 +167,7 @@ header{
 
 }
 /* main section end */
+/* footer start */
 footer{
     background: #161616;
     height: 250px;
@@ -199,3 +200,87 @@ footer{
     color: #fff;
     margin-right: 25px;
 }
+/* footer end */
+/* ==============responsive start ==============*/
+@media screen and (max-width:576px) {
+    /* .containers{
+        width: 100%;
+    } */
+    
+    .banner{
+        width: 100%;
+    }
+    .banner_items{
+        display: block;
+    }
+    .banner_info{
+        
+        margin: 0 auto;
+    }
+    h1{
+        padding-top: 60px;
+        font-size: 2em;
+        line-height: 50px;
+    }
+    .banner_image{
+        
+        margin: 0 auto;
+    }
+    .banner_image  img{
+        margin-top: 10px;
+    }
+    /* banner responsive done */
+    /* main responsive */
+    #main{
+        display: block;
+    }
+    .main_content{
+        display: block;
+    }
+    .left_content{
+        width: 50%;
+    }
+    .right_content{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+       
+    }
+    .left_button_items ul {
+        margin-left: 25%;
+     }
+    .blogs{
+        width: 60%;
+    }
+    .blog_image img{
+        width: 100%;
+    }
+    .right_content .blog_info h4{
+        font-size: 14px;
+        margin-bottom: 4px;
+    }
+    .right_content .blog_info {
+        
+        padding: 10px;
+        
+    }
+    .right_content .blog_info .icon{
+        margin-bottom: 8px;
+        
+    }
+    /* responsive footer */
+    footer{
+        
+        height: auto;
+    }
+    .menu ul {
+        display: block; 
+    }
+    .menu ul li{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+
+
+}
+/* ===========responsive end =================*/
