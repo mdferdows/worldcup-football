@@ -32,6 +32,7 @@ p{
     background: #07800d;
     color: #fff;
     transition:   2s;
+    outline: 1px solid #8d7b05;
     
 }
 /* common css end */
@@ -227,6 +228,23 @@ nav .social i{
     
     padding-right: 20px;
 }
+/* =========for Upcomimg page start========== */
+
+.right_content .blog_image_upcoming{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.right_content .blog_image_upcoming img{
+    padding: 20px 8px;
+    
+} 
+
+.right_content .blog_info_upcomeing{
+    text-align: center;
+    
+} 
+/* =========for Upcomimg page end========== */
 /* footer end */
 /* ==============responsive start ==============*/
 /* x-small decice */
@@ -335,6 +353,7 @@ nav .social i{
     .banner_image  img{
         margin-top: 10px;
     }
+    
     /* banner responsive done */
     /* main responsive */
     #main{
@@ -411,8 +430,11 @@ nav .social i{
         padding-left: 4%;
     }
     .banner_button { 
-        padding-top: 50px;   
+        padding-top: 30px;  
+        padding-bottom: 10px;
+
     }
+    
     .banner_image  img{
         margin-top: 20px;
         margin-left: 4%;
