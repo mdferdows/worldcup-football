@@ -33,6 +33,7 @@ p{
     color: #fff;
     transition:   2s;
     outline: 1px solid #8d7b05;
+    cursor: pointer;
     
 }
 /* common css end */
@@ -408,9 +409,7 @@ nav .social i{
 }
 /* ---------tablet device--------------- */
 @media screen and (min-width:577px) and (max-width:992px) {
-    /* body{
-        overflow-x: hidden;
-    } */
+    
     #banner{
         width: 100vw;
         
